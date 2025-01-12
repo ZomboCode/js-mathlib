@@ -1,0 +1,25 @@
+{
+  "name": "@zombocode/js-mathlib",
+  "version": "1.0.2",
+  "description": "A vector and matrix library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZomboCode/js-mathlib.git"
+  },
+  "keywords": [
+    "matrix",
+    "linear equations solver",
+    "Gaussian elimination",
+    "vector"
+  ],
+  "author": "Zombo, <zombocomfan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZomboCode/js-mathlib/issues"
+  },
+  "homepage": "https://github.com/ZomboCode/js-mathlib#readme"
+}
