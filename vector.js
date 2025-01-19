@@ -147,7 +147,7 @@ class vect2d {
      * @returns projection of this to vect2
      */
     projectionOnto(vect2) {
-        return this.dotProduct(vect2) / (vect2.getMagnitude());
+        return this.dot(vect2) / (vect2.getMagnitude());
     }
 
     /**
@@ -157,7 +157,7 @@ class vect2d {
      */
     paraComponent(vect2) {
         var normal = vect2.getNormalized();
-        var len = this.dotProduct(normal);
+        var len = this.dot(normal);
         return normal.mult(len);
     }
 
@@ -168,7 +168,7 @@ class vect2d {
      */
     perpComponent(vect2) {
         var normal = vect2.crossVector().getNormalized();
-        var len = this.dotProduct(normal);
+        var len = this.dot(normal);
         return normal.mult(len);
     }
 
@@ -187,8 +187,8 @@ class vect2d {
      * @returns angle
      */
     angleTo(vect2) {
-        var px = this.dotProduct(vect2);
-        var py = this.crossProduct(vect2);
+        var px = this.dot(vect2);
+        var py = this.cross(vect2);
         return Math.atan2(py, px);
     }
 
