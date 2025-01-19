@@ -45,7 +45,7 @@ console.log("GE method")
 x3.printOut()
 ```
 
-##Using vect2d class
+## Using vect2d class
 
 Useful for 2d games or solving geometry problems
 ```JavaScript
@@ -66,6 +66,20 @@ var c = pos.cross(pos2) //cross product (gives a number)
 var proj = pos.projectionOnto(pos2) //projection onto pos2
 var ang = pos.angleTo(pos2) //gives in radians 
 ```
+
+## vect3d class
+
+Works mostly the same as `vect2d`, however cross product results in a new vector
+```JavaScript
+const {vect3d} = require("@zombocode/js-mathlib");
+
+var pos = new vect3d(3, 4, 5);
+//methods are analogous to vect2d
+//however cross product works differently
+var pos2 = new vect3d(1, 0, -1)
+var prod = pos.cross(pos2)
+```
+
 
 
 
