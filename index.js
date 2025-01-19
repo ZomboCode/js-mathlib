@@ -1,7 +1,7 @@
 const vect2d = require("./vector")
 const vect3d = require("./vector3d")
 const {Matrix, ColMatrix, RowMatrix, DiagMatrix} = require("./matrix")
-
+/**
 var A = new Matrix([[4, 0, 2], [0, 5, 1], [0, 4, 5]]) //define the whole matrix here
 var B = new DiagMatrix([2, 1, 3]) //define only through the diagonal (but use like a normal matrix)
 
@@ -30,6 +30,6 @@ x3.printOut()
 
 var pos = new vect2d(3, 4);
 var norm = pos.getNormalized(); //normal vector
-console.log(norm)
+console.log(norm)*/
 
 module.exports = {vect3d, vect2d, ColMatrix, Matrix, RowMatrix, DiagMatrix}
