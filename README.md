@@ -26,12 +26,11 @@ var C3 = A.minus(B.multNum(3)) //A - 3B
 Solving systems of linear equations
 ```JavaScript
 var b = new ColMatrix([10, 5, 6]) //define a column matrix
-//want to solve an equation Cx = b for x
 
-//iterative methods
-//Jacobi method
+//want to solve an equation Cx = b for x
+//iterative Jacobi method
 var x = C.solveLinearSystem(b)
-//Seidel method
+//iterative Seidel method
 var x2 = C.solveLinearSystem2(b)
 
 //exact method - Gaussian Elimination
