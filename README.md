@@ -11,6 +11,7 @@ Planned for future:
 
 ## Using Matrix class
 Creating and multiplying matrices.
+
 DiagMatrix, ColMatrix, RowMatrix are subclasses of Matrix and share all methods
 ```JavaScript
 const {Matrix, DiagMatrix, ColMatrix} = require("@zombocode/js-mathlib");
