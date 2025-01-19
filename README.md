@@ -10,7 +10,8 @@ Planned for future:
 + Find intersections of different functions
 
 ## Using Matrix class
-Creating and multiplying matrices
+Creating and multiplying matrices.
+DiagMatrix, ColMatrix, RowMatrix are subclasses of Matrix and share all methods
 ```JavaScript
 const {Matrix, DiagMatrix, ColMatrix} = require("@zombocode/js-mathlib");
 var A = new Matrix([[4, 0, 2], [0, 5, 1], [0, 4, 5]]) //define the whole matrix here
