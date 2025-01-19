@@ -272,7 +272,6 @@ class Matrix {
                 if (this.data[j][j] == 0) {new_val = 0;}
                 ans2.push(new_val);
                 errorSum += (ans2[j]-ans[j])**2/(ans2[j]**2)/this.w;
-                console.log(new_val, i, value, this.data[j][j]);
             }
             ans = ans2; //set new value for x
             ans2 = [];
