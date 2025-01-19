@@ -6,6 +6,12 @@ Currently includes:
 + vect3d class
   
 Planned for future:
-+ More equations (not only linear)
++ More equations (not only linear) :+1:
 + Find intersections of different functions
+
+## Using Matrix class
+```
+const {Matrix, DiagMatrix} = require("@zombocode/js-mathlib");
+```
+
 
