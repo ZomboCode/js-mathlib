@@ -11,7 +11,7 @@ Planned for future:
 
 ## Using Matrix class
 Creating and multiplying matrices
-```
+```JavaScript
 const {Matrix, DiagMatrix} = require("@zombocode/js-mathlib");
 var A = new Matrix([[4, 0, 2], [0, 5, 1], [0, 4, 5]]) //define the whole matrix here
 var B = new DiagMatrix([2, 1, 3]) //define only through the diagonal (but use like a normal matrix)
