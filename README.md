@@ -12,7 +12,7 @@ Planned for future:
 ## Using Matrix class
 Creating and multiplying matrices.
 
-DiagMatrix, ColMatrix, RowMatrix are subclasses of Matrix and share all methods
+`DiagMatrix, ColMatrix, RowMatrix` are subclasses of Matrix and share all methods
 ```JavaScript
 const {Matrix, DiagMatrix, ColMatrix} = require("@zombocode/js-mathlib");
 var A = new Matrix([[4, 0, 2], [0, 5, 1], [0, 4, 5]]) //define the whole matrix here
