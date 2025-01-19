@@ -1,6 +1,6 @@
 {
   "name": "@zombocode/js-mathlib",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A vector and matrix library",
   "main": "index.js",
   "scripts": {
