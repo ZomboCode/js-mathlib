@@ -252,5 +252,5 @@ class vect2d {
         return new vect2d(-this.x, -this.y);
     }
 }
-module.exports = vect2d;
+export default vect2d;
 

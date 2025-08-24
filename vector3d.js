@@ -199,4 +199,4 @@ class vect3d {
     }
 }
 
-module.exports = vect3d;
+export default vect3d;

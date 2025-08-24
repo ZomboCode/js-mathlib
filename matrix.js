@@ -407,4 +407,4 @@ class DiagMatrix extends Matrix {
     }
 }
 
-module.exports = {Matrix, DiagMatrix, RowMatrix, ColMatrix};
+export {Matrix, DiagMatrix, RowMatrix, ColMatrix};
