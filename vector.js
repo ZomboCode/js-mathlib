@@ -200,6 +200,14 @@ class vect2d {
         return Math.atan2(this.y, this.x);
     }
     /**
+     * find dist between vectors
+     * @param {vect2d} vect2 other vector
+     * @returns number, distance between points
+     */
+    distTo(vect2) {
+        return this.minus(vect2).getMagnitude();
+    }
+    /**
      * Slope (y/x) of the vector
      * @returns slope of the vector
      */

@@ -197,6 +197,15 @@ class vect3d {
     getNegative() {
         return new vect3d(-this.x, -this.y, -this.z);
     }
+
+    /**
+     * find dist between vectors
+     * @param {vect2d} vect2 other vector
+     * @returns number, distance between points
+     */
+    distTo(vect2) {
+        return this.minus(vect2).getMagnitude();
+    }
 }
 
 export default vect3d;
